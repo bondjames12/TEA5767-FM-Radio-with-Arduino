@@ -1,3 +1,19 @@
-# TEA5767-FM-Radio-with-Arduino
-Using the TEA5767 FM Radio with an Arduino. An LED Shield with keys is used for control and display.
-A Libray and the Phillips Application sheet are included. For more information see my blog at https://rydepier.wordpress.com/2015/12/31/tea5767-fm-radio/ ‎
+TEA5767
+=======
+
+Arduino library for the TEA5767 Philips radio module written in C++. Tested with Arduino Leonardo.
+
+Files and folder
+
+File deploy.bat
+	Copy files TEA5767N.cpp and TEA5767N.h to the Arduino thirdparty libraries folder.
+	
+Folder examples
+	LCDKeyPadShieldAndRadioTEA5767Demo
+		Complete application 
+		
+	SimpleLibDemo
+		Performs consecutive calls to several radio methods, demonstrating main features.
+		
+	SimpleRadioStationSelection
+		Simple application selecting a single frequency.
